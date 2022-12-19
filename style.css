@@ -1,0 +1,98 @@
+body {
+  color: hsl(255, 100, 80);
+  background-color: orange;
+}
+
+#top_mac {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  /* letter-spacing: 1em; */
+  line-height: 1em;
+  position: fixed;
+  top: 0px;
+  font-size: 100;
+}
+
+#top_span {
+  /* background-color: rgb(229, 133, 23); */
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 120px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+h2 {
+  border: solid 3px #000000;
+  color: #ff0000;
+  width: 200px;
+  padding: 20px;
+  background-color: antiquewhite;
+  
+}
+.list-s {
+  list-style-type: square;
+  color: #676060;
+}
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  margin: 60px 20px 20px 40px;
+  /* min-width: 60%;
+  background-color: antiquewhite;
+  border: solid 10px #000000;
+  padding: 20px 20px;
+ 
+  text-align: right;
+  line-height: 4;
+  letter-spacing: 0.3em; */
+}
+
+h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  min-width: 800px;
+  background-color: antiquewhite;
+  margin-top: 30px 20px 100px;
+  border: solid 5px #ff0000;
+  text-align: center;
+  line-height: 4;
+  position: relative;
+}
+
+#kodamono {
+  width: 400px;
+  height: 100px;
+  font-weight: bold;
+  font-size: large;
+  background-color: bisque;
+  border: solid 3px #ce1111;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  list-style-type: none;
+  
+}
+
+
+.saru {
+  width: auto;
+  text-align: left;
+
+}
+
+.dog {
+  min-width: 40%;
+  min-height: 40%;
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
